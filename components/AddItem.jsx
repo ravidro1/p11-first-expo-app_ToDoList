@@ -1,4 +1,12 @@
-import { Alert, Button, Keyboard, StyleSheet, Text, TextInput, View } from "react-native";
+import {
+  Alert,
+  Button,
+  Keyboard,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+} from "react-native";
 import React, { useState } from "react";
 import CustomButton from "./Button";
 
@@ -32,7 +40,7 @@ export default function AddItem({ setList }) {
   console.log(textInput);
 
   return (
-    <View>
+    <View style={styles.continer}>
       <TextInput
         placeholderTextColor={"rgba(255, 255, 255, 0.75)"}
         style={styles.input}
@@ -60,6 +68,7 @@ const styles = StyleSheet.create({
     borderColor: "white",
     borderWidth: 1,
     marginBottom: 30,
+    // maxWidth: "100%",
   },
   textButton: { color: "white", fontSize: 20, fontWeight: "600" },
 
@@ -72,5 +81,6 @@ const styles = StyleSheet.create({
     borderBottomColor: "white",
     marginBottom: 30,
     marginTop: 20,
+    maxWidth: "90%",
   },
 });

@@ -14,9 +14,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#FFC93C",
-    width: "100%",
-    height: "12%",
-    paddingTop: 30,
+    // width: "100%",
+    // height: "12%",
+    // paddingTop: 30,
+    flex: 1,
   },
 
   text: {

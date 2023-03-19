@@ -9,6 +9,10 @@ export default function Body() {
     { text: "2", key: 2 },
     { text: "3", key: 3 },
     { text: "4", key: 4 },
+    { text: "5", key: 5 },
+    { text: "6", key: 6 },
+    { text: "7", key: 7 },
+    { text: "8", key: 8 },
   ]);
 
   return (
@@ -28,10 +32,9 @@ const styles = StyleSheet.create({
   continer: {
     alignItems: "center",
     justifyContent: "center",
-    width: "100%",
-    height: "88%",
+    // width: "100%",
+    // height: "88%",
     backgroundColor: "#0081C9",
+    flex: 9,
   },
-
-  text: {},
 });
